@@ -18,7 +18,7 @@ WORKDIR /opt/app
 
 
 ## Your python project dependencies
-RUN pip3 install selenium
+RUN  pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple selenium
 ## or install from dependencies.txt, comment above and uncomment below
 #COPY requirements.txt .
 #RUN pip3 install -r requirements.txt
